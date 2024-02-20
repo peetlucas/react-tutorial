@@ -9,7 +9,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+<<<<<<< HEAD
+    <Todo />
+=======
+    <MyApp />
+>>>>>>> 45825a0 (index.js file updated with new changes)
   </React.StrictMode>
 );
 
