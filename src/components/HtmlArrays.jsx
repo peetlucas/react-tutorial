@@ -18,6 +18,11 @@ const HtmlArrays = () => {
                 Link to Amazon.com
             </a>
         </li>,
+        <li className="nav-item">
+            <a className="nav-link" href="https://www.bbc.co.uk">
+                Link to BBC.co.uk
+            </a>
+        </li>,
     ]
   return (
     <div>
