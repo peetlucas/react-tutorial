@@ -15,6 +15,9 @@ const Badge = (props) => {
       <span className="badge badge-light">
         {props.number}
       </span>
+      <span className="badge badge-light">
+        {props.number + 2}
+      </span>
     </button>
   );
 };
