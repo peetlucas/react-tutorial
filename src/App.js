@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 // import { PrintHello } from './components/PrintHello';
 // import BuildLayout from './components/BuildLayout';
-// import HtmlArrays from './components/HtmlArrays';
+import HtmlArrays from './components/HtmlArrays';
 // import ArrayList from './components/ArrayList';
 // import Alert from './components/Alert';
 import Jumbotron from './components/Jumbotron';
@@ -23,6 +23,10 @@ function App() {
         buttonURL='https://reactjs.org'
       />
       <Badge label="Notifications" number="1" />
+
+      <br />
+      <hr />
+      <HtmlArrays />
     </div>
   );
 }
